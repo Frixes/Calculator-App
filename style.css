@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cal-body {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.button-cont {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
